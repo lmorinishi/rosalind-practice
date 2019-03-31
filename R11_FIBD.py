@@ -4,7 +4,6 @@ with open(filename) as file:
 
 
 # rabbits after n months if they live for m months
-# n(t) = n(t-1) + n(t-2) - n(t-m)
 
 def get_rabbits(gen0, months, survival, totals):
     if months in totals.keys():
